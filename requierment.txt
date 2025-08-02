@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic
+google-generativeai
+pinecone-client
+requests
+PyMuPDF
+python-docx
+langchain
+python-dotenv
+beautifulsoup4
+aiolimiter
