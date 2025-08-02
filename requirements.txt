@@ -2,7 +2,7 @@ fastapi
 uvicorn[standard]
 pydantic
 google-generativeai
-pinecone==2.2.1
+pinecone
 requests
 PyMuPDF
 python-docx
@@ -10,3 +10,4 @@ langchain
 python-dotenv
 beautifulsoup4
 aiolimiter
+
