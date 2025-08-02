@@ -20,7 +20,8 @@ PINECONE_REGION = "us-east-1"
 
 # --- Gemini Model Configuration ---
 GEMINI_EMBEDDING_MODEL = "models/text-embedding-004"
-GEMINI_LLM_MODEL = "gemini-1.5-flash-latest"
+GEMINI_LLM_MODEL = "gemini-2.5-flash"
 
 # --- Retrieval Configuration ---
+
 TOP_K_RESULTS = 5
