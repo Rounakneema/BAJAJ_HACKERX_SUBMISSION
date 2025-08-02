@@ -1,5 +1,4 @@
 from fastapi import FastAPI, Depends
-app = FastAPI()
 from app.models.schemas import SubmissionRequest, SubmissionResponse
 from app.services.query_handler import process_request
 from app.auth import verify_token
@@ -28,3 +27,4 @@ async def run_submission(request: SubmissionRequest):
 def health_check():
 
     return {"status": "ok", "version": "5.0.0"}
+
